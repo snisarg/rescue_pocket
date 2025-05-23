@@ -1,7 +1,6 @@
 # Rescue Pocket
 
-A Python tool to interact with the Pocket API for retrieving and managing your saved articles.
-
+A python script to retrieve your saved articles from Pocket and save them to a CSV file.
 ## Setup
 
 1. Create a virtual environment:
