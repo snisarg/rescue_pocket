@@ -27,7 +27,7 @@ def authorize_app(request_token):
     """Open browser for user authorization"""
     auth_url = f"{AUTHORIZE_URL}?{urlencode({'request_token': request_token, 'redirect_uri': 'pocketapp1234:authorizationFinished'})}"
     webbrowser.open(auth_url)
-    input("Press Enter after you've authorized the app in your browser...")
+    input("After you've authorized the app in your browser, the window will not close automatically. Just come back here and press Enter...")
 
 def get_access_token(request_token):
     """Exchange request token for access token"""
